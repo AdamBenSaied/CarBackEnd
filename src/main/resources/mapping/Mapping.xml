@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping wildcard="true">
+        <class-a>com.example.car.model.VO.CarVO</class-a>
+        <class-b>com.example.car.model.WVOS.CarWVO</class-b>
+        <field>
+            <a>OwnerVO</a>
+            <b>OwnerWVO</b>
+        </field>
+        <field>
+            <a>inspectionVOList</a>
+            <b>insepctionWVOList</b>
+        </field>
+    </mapping>
+
+    <mapping wildcard="true">
+        <class-a>com.example.car.model.VO.OwnerVO</class-a>
+        <class-b>com.example.car.model.WVOS.OwnerWVO</class-b>
+    </mapping>
+    <mapping wildcard="true">
+        <class-a>com.example.car.model.VO.InspectionVO</class-a>
+        <class-b>com.example.car.model.WVOS.InspectionWVOVO</class-b>
+
+
+    </mapping>
+
+</mappings>
